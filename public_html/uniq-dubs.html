@@ -394,30 +394,250 @@
 	<script>
 		/* ========================================
 		   Content
-		   ここだけ差し替える
 		======================================== */
 
 		const updatedAt = "2026年10月7日現在";
 
 		const artists = [
 			{
-				name: "noctane 2",
-
+				name: "Oolacile",
 				tracks: [
 					{
-						name: "3 - to your eternity",
-
-						soundcloud:
-							"https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2188807347",
-
-						artistUrl:
-							"https://soundcloud.com/color-bass-2-ids",
-
-						trackUrl:
-							"https://soundcloud.com/color-bass-2-ids/3-lptp-2youreternity",
-
-						comment:
-							"ここにトラックに関するコメントやメモが入ります。"
+						name: "feelitallrmx",
+						soundcloud: "https://soundcloud.com/oolacile/feelitallrmx",
+						artistUrl: "https://soundcloud.com/oolacile",
+						trackUrl: "https://soundcloud.com/oolacile/feelitallrmx",
+						comment: "重みのある音、惜しみなく高音域に音を詰めてくれるのが好き ColorBass初期、いい意味で目立っていた気がする"
+					},
+					{
+						name: "memcleanse",
+						soundcloud: "https://soundcloud.com/oolacile/memcleanse",
+						artistUrl: "https://soundcloud.com/oolacile",
+						trackUrl: "https://soundcloud.com/oolacile/memcleanse",
+						comment: "2:25からやばい メロディックな音に極端にスネアとベースを叩き込むのが凄い"
+					},
+					{
+						name: "Divisions (laxcity Remix)",
+						soundcloud: "https://soundcloud.com/laxcitymusic/oolacile-divisions-laxcity-remix-1",
+						artistUrl: "https://soundcloud.com/laxcitymusic",
+						trackUrl: "https://soundcloud.com/laxcitymusic/oolacile-divisions-laxcity-remix-1",
+						comment: "laxcityの繊細な音作りが、Oolacileの良さと融合してて神"
+					}
+				]
+			},
+			{
+				name: "Knoir",
+				tracks: [
+					{
+						name: "pump",
+						soundcloud: "https://soundcloud.com/knoir/pump",
+						artistUrl: "https://soundcloud.com/knoir",
+						trackUrl: "https://soundcloud.com/knoir/pump",
+						comment: "毎回eliderpと間違える人。"
+					}
+				]
+			},
+			{
+				name: "Moore Kismet🩷",
+				tracks: [
+					{
+						name: "Zomboy - Born To Survive (feat. RX SOUL) [Moore Kismet Remix]",
+						soundcloud: "https://soundcloud.com/moorekismet/zomboy-born-to-survive-feat-rx-soul-moore-kismet-remix",
+						artistUrl: "https://soundcloud.com/moorekismet",
+						trackUrl: "https://soundcloud.com/moorekismet/zomboy-born-to-survive-feat-rx-soul-moore-kismet-remix",
+						comment: "インターネットから拾ってランダムなサンプル、すべてのノイズをDubstepのベースに昇華してしまう人だと思ってる 天才"
+					},
+					{
+						name: "sadkey - Ought (Moore Kismet Reboot)",
+						soundcloud: "https://soundcloud.com/moorekismet/sadkey-ought-moore-kismet-reboot",
+						artistUrl: "https://soundcloud.com/moorekismet",
+						trackUrl: "https://soundcloud.com/moorekismet/sadkey-ought-moore-kismet-reboot",
+						comment: "一番聞いてる 愛してやまない神曲0:40の思いっきりPANをふったグリッチ感のある音 好きすぎる そんなことしていいんだってなる Sadkeyもびっくり！！"
+					},
+					{
+						name: "tokyo",
+						soundcloud: "https://soundcloud.com/moorekismet/tokyo-3",
+						artistUrl: "https://soundcloud.com/moorekismet",
+						trackUrl: "https://soundcloud.com/moorekismet/tokyo-3",
+						comment: "当時14歳という若さで、Tokyo DriftのRemix出した天才 この人については語り切れないほどの愛があるのでまた後日"
+					}
+				]
+			},
+			{
+				name: "eliderp",
+				tracks: [
+					{
+						name: "fly so high",
+						soundcloud: "https://soundcloud.com/halcyonlv/fly-so-high",
+						artistUrl: "https://soundcloud.com/halcyonlv",
+						trackUrl: "https://soundcloud.com/halcyonlv/fly-so-high",
+						comment: "毎回Knoirと間違える人。 聞く麻薬 Halcyonって男の娘感あるけど、あれはまじで何"
+					}
+				]
+			},
+			{
+				name: "wolfmagic",
+				tracks: [
+					{
+						name: "To Ü (wm remix)",
+						soundcloud: "https://soundcloud.com/iamwolfmagic/to-u-wmremix",
+						artistUrl: "https://soundcloud.com/iamwolfmagic",
+						trackUrl: "https://soundcloud.com/iamwolfmagic/to-u-wmremix",
+						comment: "お前らこういう音好きなんだろって見透かされてる感 本当に秒で好きなる"
+					},
+					{
+						name: "BEEF",
+						soundcloud: "https://soundcloud.com/iamwolfmagic/beef",
+						artistUrl: "https://soundcloud.com/iamwolfmagic",
+						trackUrl: "https://soundcloud.com/iamwolfmagic/beef",
+						comment: "あああああこれDLしてエンドレスに聞いた こんなビート調なのに1:02からresonatorゲロッたみたいな音出してくるのずるい シンプルに好き"
+					},
+					{
+						name: "reality surf edit",
+						soundcloud: "https://soundcloud.com/iamwolfmagic/realitysurfedit",
+						artistUrl: "https://soundcloud.com/iamwolfmagic",
+						trackUrl: "https://soundcloud.com/iamwolfmagic/realitysurfedit",
+						comment: "Bladeeにdrainerrrrrされたなにか てかよくこんなキレのある音出せるよな"
+					}
+				]
+			},
+			{
+				name: "Leotrix",
+				tracks: [
+					{
+						name: "emoboy303 (side)",
+						soundcloud: "https://soundcloud.com/leotrixofficial/emoboy303-side",
+						artistUrl: "https://soundcloud.com/leotrixofficial",
+						trackUrl: "https://soundcloud.com/leotrixofficial/emoboy303-side",
+						comment: "ほんっっっっっっっっっとうに毎回意味わからない角度から音出してくる人 かとおもったら、急にIMANUとコラボしたり、しっかり音の展開が考えられてると思ったら、UKF DUBSTEP初期みたいなおとだしてくるｓ"
+					},
+					{
+						name: "IMANU & The Caracal Project & Leotrix - Gaspin 4 Air",
+						soundcloud: "https://soundcloud.com/ukf/imanu-the-caracal-project-leotrix-gaspin-4-air",
+						artistUrl: "https://soundcloud.com/ukf",
+						trackUrl: "https://soundcloud.com/ukf/imanu-the-caracal-project-leotrix-gaspin-4-air",
+						comment: "やばい"
+					},
+					{
+						name: "ATLiens - Fading Out (feat. Sara Skinner) [Leotrix Remix]",
+						soundcloud: "https://soundcloud.com/atliens/fading-out-feat-sara-skinner-leotrix-remix",
+						artistUrl: "https://soundcloud.com/atliens",
+						trackUrl: "https://soundcloud.com/atliens/fading-out-feat-sara-skinner-leotrix-remix",
+						comment: "でもやっぱり、こういうのに負けちゃう 一番聴いてる というか人生でもトップに入るくらい 音的にはwolfmagicの兄弟 死ぬほど聞いた"
+					},
+					{
+						name: "Stardust - Music Sounds Better With You (Leotrix's Future Riddim VIP)",
+						soundcloud: "https://soundcloud.com/leotrixofficial/stardust-music-sounds-better-with-you-leotrixs-future-riddim-vip-patreon-dubplate-clip",
+						artistUrl: "https://soundcloud.com/leotrixofficial",
+						trackUrl: "https://soundcloud.com/leotrixofficial/stardust-music-sounds-better-with-you-leotrixs-future-riddim-vip-patreon-dubplate-clip",
+						comment: "これが原因 なんで？（なんで？） 何でそんな天才的な音出せる？ 壊れそうなんでおとなしくdubstepしててほしい"
+					},
+					{
+						name: "trip333",
+						soundcloud: "https://soundcloud.com/pilotrecordsuk/leotrix-trip333",
+						artistUrl: "https://soundcloud.com/pilotrecordsuk",
+						trackUrl: "https://soundcloud.com/pilotrecordsuk/leotrix-trip333",
+						comment: "とりあえずleotrix（本家）を貼っておきます この人も情報量多くて語れないので後日"
+					}
+				]
+			},
+			{
+				name: "maji*",
+				tracks: [
+					{
+						name: "19sun id showcase",
+						soundcloud: "https://soundcloud.com/majiasterisk/19sun-id-showcase",
+						artistUrl: "https://soundcloud.com/majiasterisk",
+						trackUrl: "https://soundcloud.com/majiasterisk/19sun-id-showcase",
+						comment: "majiiiii！！！！！ 毎回律儀に返信してるの可愛いのと、こんなにラフに神曲を出せるの神だと思います"
+					},
+					{
+						name: "can't sleep but it's a silly vip",
+						soundcloud: "https://soundcloud.com/majiasterisk/cant-sleep-but-its-a-silly-vip",
+						artistUrl: "https://soundcloud.com/majiasterisk",
+						trackUrl: "https://soundcloud.com/majiasterisk/cant-sleep-but-its-a-silly-vip",
+						comment: "こういうのに負けちゃう（２）"
+					}
+				]
+			},
+			{
+				name: "aego",
+				tracks: [
+					{
+						name: "be comfortable (aego remix)",
+						soundcloud: "https://soundcloud.com/aegoo/be-comfortable-aego-remix",
+						artistUrl: "https://soundcloud.com/aegoo",
+						trackUrl: "https://soundcloud.com/aegoo/be-comfortable-aego-remix",
+						comment: "なんで曲を削除するんですか？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？ いっぱい貼りたかったのに"
+					},
+					{
+						name: "someday",
+						soundcloud: "https://soundcloud.com/aegoo/someday",
+						artistUrl: "https://soundcloud.com/aegoo",
+						trackUrl: "https://soundcloud.com/aegoo/someday",
+						comment: "ちょっとジャンルは違うけど、再アップロードされてて嬉しいので 高校生の時救われた"
+					}
+				]
+			},
+			{
+				name: "clwdy.",
+				tracks: [
+					{
+						name: "clairvoyant metadata flip",
+						soundcloud: "https://soundcloud.com/clwdytunes/clairvoyant-metadata-flip",
+						artistUrl: "https://soundcloud.com/clwdytunes",
+						trackUrl: "https://soundcloud.com/clwdytunes/clairvoyant-metadata-flip",
+						comment: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 次世代の音 fighter plane ellie gouldingのサンプルのサンプルのRemixのサンプルの、、 これについても後日 すべての派生好きだから ほんとうにいいいいいいい"
+					},
+					{
+						name: "Purgatory",
+						soundcloud: "https://soundcloud.com/neoluminum/purgatory",
+						artistUrl: "https://soundcloud.com/neoluminum",
+						trackUrl: "https://soundcloud.com/neoluminum/purgatory",
+						comment: "dubstep 2の架け橋 ありがとう ありがとうありがとうありがとうありがとうありがとう"
+					}
+				]
+			},
+			{
+				name: "klypht.",
+				tracks: [
+					{
+						name: "home",
+						soundcloud: "https://soundcloud.com/klypht/home",
+						artistUrl: "https://soundcloud.com/klypht",
+						trackUrl: "https://soundcloud.com/klypht/home",
+						comment: "一秒で好きになった曲 こうなんていうんだろう、音楽理論めっちゃつよそう とかいってたらダブステップしてくるの何 ホワイトノイズが好みなの"
+					}
+				]
+			},
+			{
+				name: "sxth sns🩷",
+				tracks: [
+					{
+						name: "hold this skeng while i back my shank",
+						soundcloud: "https://soundcloud.com/sxthsns/hold-this-skeng-while-i-back-my-shank",
+						artistUrl: "https://soundcloud.com/sxthsns",
+						trackUrl: "https://soundcloud.com/sxthsns/hold-this-skeng-while-i-back-my-shank",
+						comment: "はい これも死ぬほど聞いた VPN越しに聞いてたから再生ランクBANされて悔しい この人も後日書く 多い"
+					},
+					{
+						name: "Aure",
+						soundcloud: "https://soundcloud.com/sxthsns/aure",
+						artistUrl: "https://soundcloud.com/sxthsns",
+						trackUrl: "https://soundcloud.com/sxthsns/aure",
+						comment: "もうね 何も言葉が出せません"
+					}
+				]
+			},
+			{
+				name: "selasi",
+				tracks: [
+					{
+						name: "twilight remix",
+						soundcloud: "https://soundcloud.com/selasii/twilight-remix",
+						artistUrl: "https://soundcloud.com/selasii",
+						trackUrl: "https://soundcloud.com/selasii/twilight-remix",
+						comment: "ちょっと理解が追いつきません わかりません どうしたら多量のベースを管理できるんだろう。。？"
 					}
 				]
 			}
